@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>2</title>
+    <script src="2.js"></script>
+</head>
+<body>
+    
+    <div class="container bg-warning ">
+        <div class="jumbotron md-5 d-flex justify-content-center">
+            <h2>LogIn Page</h2>
+        </div>
+        <form onsubmit="return validation()" >
+            <div class="form-group">
+                <label for="username" class="form-text">Username</label>
+                <input type="text"id="username" class="form-control" placeholder="Enter an Username" required>
+                <small>Your private data will be secured</small>
+            </div>
+            <div class="form-group">
+                <label for="id1" class="form-text">Password</label>
+                <input type="password" id="id1" class="form-control" placeholder="Enter a Password" required>
+                <small></small>
+            </div>
+            
+            <div class="form-group">
+                <label for="mail" class="form-text">Email</label>
+                <input type="email"id="mail" class="form-control" placeholder="Enter an email" required>
+                <small></small>
+            </div>
+
+            <div>
+            <button type="submit" id="submit" class="form-control bg-secondary text-light">SUBMIT</button>      
+            <!-- <button onsubmit="username()">Check</button> -->
+            <small></small>
+            </div>
+        </form>
+    
+            <!-- for comment -->
+            <div id="comment-sec" style="padding:30px;">
+                <!-- for refernece -->
+                <div id="ref" style="display: flex; justify-content: space-around;
+                 font-size:24px;visibility: hidden;">
+                    <div>Username</div>
+                    <div>password</div>
+                    <div>email</div>
+                </div>
+            </div>
+           
+        </div>
+
+      
+</body>
+</html>
